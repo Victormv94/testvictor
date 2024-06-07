@@ -3,7 +3,7 @@
 ## Información proyecto
 
 Proyecto realizado en Laravel 9
-Base de datos mysql, se adjunta base en ruta /databasetest/victor_test.sql
+Base de datos mysql, se adjunta base en ruta /databaseTest/victor_test.sql
 
 Requerimientos
 - PHP.
@@ -16,6 +16,8 @@ Instalar php8.0.2 o mayor y mysql
 Instalar composer
 Descargar proyecto desde git
 Actualizar repositorios de laravel con composer update
+Actualizar key con php artisan key:generate
+Configurar base de datos en .env
 Correr en modo development con php artisan serve
 Abrir en navegador http://127.0.0.1:8000
 
