@@ -90,7 +90,7 @@ class brandsController extends Controller{
         }else{
             DB::update('update brands set average_price=? where name=?',[$data['average_price'],$id]);
             return response()->json([
-                'message' => 'The price of model '.$data['name'].' was changed.',
+                'message' => 'The price of model '.$id.' was changed.',
                 'data' => $data
             ], 200);
         }
